@@ -1,0 +1,38 @@
+{
+    "name": "razonyang/yii2-log-target-db",
+    "description": "Yii2 enhanced database log target",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "log", "db target"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Razon Yang",
+            "email": "razonyang@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "yiisoft/yii2": "~2.0.13"
+    },
+    "require-dev": {
+        "codeception/codeception": "^3.0",
+        "codeception/verify": "^1.1",
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "RazonYang\\Yii2\\Log\\Db\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RazonYang\\Yii2\\Log\\Db\\Tests\\": "tests"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+# composer
+composer.phar
+composer.lock
+vendor/
+
+# phpunit
+.phpunit.result.cache
